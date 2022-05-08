@@ -9,4 +9,12 @@ O usuário poderá:
 
 ### Cada projeto terá uma barra de progresso para que possa ser acompanhado o andamento dos dias e se tenha uma visualização melhor do quando que falta para a data final.
 
+## Logo abaixo vemos uma imagem de exemplo da aplicação, de como seria o gerenciamento das tarefas na aplicação.
 <img src="/src/assets/exemple.png" alt="exemple image app" />
+
+## Tecnologias utilizadas:
+ - React js;
+ - Context Api;
+ - React hooks;
+
+### A estilização foi feita com CSS puro.

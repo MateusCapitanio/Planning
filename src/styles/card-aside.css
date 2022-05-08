@@ -1,0 +1,116 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background: white;
+    text-align: center;
+    color: #4D4D4D;
+    padding: 18px;
+    font-size: 25px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10%;
+    text-align: center;
+}
+
+form input:focus-within {
+    border: 1.5px #FE7070 solid;
+}
+
+form textarea:focus-within {
+    border: 1.5px #FE7070 solid;
+}
+
+.title-sec {
+    text-align: center;
+}
+
+.title-sec h3 {
+    color: #4D4D4D;
+    margin: 10px;
+}
+
+.input-title {
+    padding: 10px;
+    outline: none;
+    border: 1.5px solid rgba(0, 0, 0, 0);
+    width: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.description-sec {
+    text-align: center;
+}
+
+.description-sec h3 {
+    color: #4D4D4D;
+    margin: 10px;
+}
+
+.text-description {
+    resize: none;
+    width: 200px;
+    height: 80px;
+    outline: none;
+    border: 1.5px solid rgba(0, 0, 0, 0);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.time-sec {
+    text-align: center;
+}
+
+.time-sec h3 {
+    color: #4D4D4D;
+    margin: 10px;
+}
+
+.time {
+    display: inline-block;
+    padding: 10px;
+    outline: none;
+    border: 1.5px solid rgba(0, 0, 0, 0);
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.btn-submit {
+    background: #FE7070;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-size: 22px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.text-description::-webkit-scrollbar {
+    width: 6px;
+    background: #F4F4F4;
+}
+
+.text-description::-webkit-scrollbar-thumb {
+    background: #FE7070;
+    border-radius: 50px;
+}

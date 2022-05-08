@@ -8,3 +8,5 @@ O usuário poderá:
   - Dar uma data final pra a conclusão do projeto;
 
 ### Cada projeto terá uma barra de progresso para que possa ser acompanhado o andamento dos dias e se tenha uma visualização melhor do quando que falta para a data final.
+
+<img src="/src/assets/exemple.png" alt="exemple image app" />
